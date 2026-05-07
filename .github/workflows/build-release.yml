@@ -1,5 +1,4 @@
 name: Build Release
-
 on:
   workflow_dispatch:
 
@@ -16,6 +15,11 @@ jobs:
           java-version: '17'
           distribution: 'adopt'
           cache: gradle
+
+      # 关键修复：删除报错的代码行
+      - name: Fix compile error
+        run: |
+          sed -i '/setIgnoreCacheException/d' app/src/main/java/com/zcshou/gogogo/MainActivity.java
 
       - name: Create local.properties
         run: |

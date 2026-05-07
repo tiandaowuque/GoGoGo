@@ -57,6 +57,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+        <!-- ========== 百度地图 SDK 配置（已补全） ========== -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="oQZYZXYAfGfeSeo4G0GG7X77nL2pWR99s" />
+
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />

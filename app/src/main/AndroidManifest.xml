@@ -60,7 +60,7 @@
         <!-- ========== 百度地图 SDK 配置（已补全） ========== -->
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
-            android:value="oQZYZXYAfGfeSeo4G0GG7X77nL2pWR99s" />
+            android:value="7fG7WHIjEDXLQHEc5XqPl4boBugBJmXy" />
 
         <uses-library
             android:name="org.apache.http.legacy"
